@@ -72,3 +72,7 @@ header, footer {
 table {
 	width: 100%;
 }
+
+#main-menu {
+	text-align: left;
+}

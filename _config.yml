@@ -9,6 +9,7 @@ permalink:  /blog/:title
 title:    Drupal Dokumentation
 tagline:  'doc'
 description:  'Drupal Dokumentation'
+url: 'http://franzwilding.github.io/drupal-docs'
 
 author:
   name:   'Franz Wilding'
@@ -36,10 +37,9 @@ copyright:
   type_url: http://creativecommons.org/licenses/by-nc/2.5
 
 
-
-
-menus:
-  main:
-  - Inhalte Erstellen:
-    - /create/
-    - Formulare: /create/webform
+menu:
+  - name: "Inhalte erstellen"
+    url:  /create
+    pages:
+      - name: "Formulare"
+        url: /webform

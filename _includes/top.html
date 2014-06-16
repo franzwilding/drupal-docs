@@ -6,7 +6,21 @@
 	<p class="menu-title">{{ site.title }}<p>
 	<div class="menu" style="background-color: #1a1a1a; z-index: -1;"></div>
 
-	{% menu main %}
+	<ul id="main-menu">
+		{% for category in site.menu %}
+			<li>
+				{{ category.name }}
+
+				<ul class="sub-menu">
+					{% for page in category.pages %}
+						<li><a href="/docs{{ category.url }}{{ page.url }}">{{ page.name }}</a></li>
+					{% endfor %}
+				</ul>
+			</li>
+
+
+		{% endfor %}
+	</ul>
 
 	<hr>
 	{% for social in site.social %}
