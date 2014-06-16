@@ -13,7 +13,7 @@
 
 				<ul class="sub-menu">
 					{% for page in category.pages %}
-						<li><a href="/docs{{ category.url }}{{ page.url }}">{{ page.name }}</a></li>
+						<li><a href="{{ site.url }}/docs{{ category.url }}{{ page.url }}">{{ page.name }}</a></li>
 					{% endfor %}
 				</ul>
 			</li>
