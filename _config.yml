@@ -1,0 +1,45 @@
+# Dependencies
+markdown: kramdown
+highlighter:  pygments
+
+# Permalinks
+permalink:  /blog/:title
+
+# Setup
+title:    Drupal Dokumentation
+tagline:  'doc'
+description:  'Drupal Dokumentation'
+
+author:
+  name:   'Franz Wilding'
+  url:    https://2robots.at
+
+paginate: 5
+
+# Custom vars
+icon:   /assets/images/icon.png
+cover:    /assets/images/cover.jpg
+
+social:
+  - icon: twitter
+    url:  https://twitter.com/franzwilding
+    desc: Follow me on twitter
+
+  - icon: github
+    url:  https://github.com/franzwilding
+    desc: Fork me on github
+
+copyright:
+  author: Franz Wilding
+  url:    http://2robots.at
+  type_title: CC
+  type_url: http://creativecommons.org/licenses/by-nc/2.5
+
+
+
+
+menus:
+  main:
+  - Inhalte Erstellen:
+    - /create/
+    - Formulare: /create/webform
