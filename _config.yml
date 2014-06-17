@@ -45,3 +45,8 @@ menu:
         url: /webform
       - name: "Social Media Account"
         url: /socialmedia
+  - name: "Inhalte verwalten"
+    url: /manage
+    pages:
+      - name: "Übersetzungen"
+        url: /translations
