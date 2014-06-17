@@ -43,3 +43,5 @@ menu:
     pages:
       - name: "Formulare"
         url: /webform
+      - name: "Social Media Account"
+        url: /socialmedia
