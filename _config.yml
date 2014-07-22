@@ -50,3 +50,5 @@ menu:
     pages:
       - name: "Übersetzungen"
         url: /translations
+      - name: "URL-Aliases"
+        url: /aliases
